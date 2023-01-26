@@ -13,6 +13,6 @@ go_library(
         "seq.go",
         "trig.go",
     ],
-    importpath = "github.com/gbdubs/maybebig",
+    importpath = "github.com/gbdubs/maybebig/maybebig",
     visibility = ["//visibility:public"],
 )
