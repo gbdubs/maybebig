@@ -1,0 +1,9 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "utils",
+    srcs = ["maybebigutils.go"],
+    importpath = "github.com/gbdubs/maybebig/utils",
+    visibility = ["//visibility:public"],
+    deps = ["//maybebig"],
+)

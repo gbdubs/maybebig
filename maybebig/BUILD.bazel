@@ -1,0 +1,18 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "maybebig",
+    srcs = [
+        "cmp.go",
+        "conv_in.go",
+        "conv_out.go",
+        "math.go",
+        "maybebig.go",
+        "op.go",
+        "precision.go",
+        "seq.go",
+        "trig.go",
+    ],
+    importpath = "github.com/gbdubs/maybebig",
+    visibility = ["//visibility:public"],
+)
